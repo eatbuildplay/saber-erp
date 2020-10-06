@@ -28,6 +28,7 @@ class Plugin {
 	public function __construct() {
 
 		$this->loader();
+		new BlockBillableHoursReport();
 
 	}
 
